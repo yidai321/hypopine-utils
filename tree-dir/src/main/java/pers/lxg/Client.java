@@ -19,7 +19,7 @@ public class Client {
 
 
     public static void main(String[] args) {
-        FileNode file = new TreeFileNode(pathname);
+        File file = new File(pathname);
         //  不存在，返回
         if (!file.exists()) {
             return;

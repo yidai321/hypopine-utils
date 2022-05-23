@@ -7,21 +7,13 @@ import java.net.URI;
  * @author lxg
  * @date 2022/5/22 13:57
  */
-public class TreeFileNode extends FileNode{
-    public TreeFileNode(String pathname) {
-        super(pathname);
-    }
+public class TreeFileNode extends FileNode {
+    public String pathname;
+    public String indent;
+    public String commonTier;
+    public String rearTier;
+    public int contentDepth;
 
-    public TreeFileNode(String parent, String child) {
-        super(parent, child);
-    }
 
-    public TreeFileNode(File parent, String child) {
-        super(parent, child);
-    }
 
-    public TreeFileNode(URI uri) {
-        super(uri);
-    }
-    
 }
