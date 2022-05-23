@@ -36,7 +36,7 @@ public class Generator {
         BufferedWriter bufferedWriter = new BufferedWriter(writer);
         this.setConsumer((str) -> {
             try {
-                bufferedWriter.write(str + "\n");
+                bufferedWriter.write(str + System.getProperty("line.separator"));
             } catch (IOException e) {
                 e.printStackTrace();
             }

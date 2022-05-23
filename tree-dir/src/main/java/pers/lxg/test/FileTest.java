@@ -6,7 +6,6 @@ import pers.lxg.portable.Generator;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.function.Consumer;
 
 /**
  * @author lxg
