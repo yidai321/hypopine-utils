@@ -1,6 +1,6 @@
 package pers.lxg.test;
 
-import pers.lxg.patten.ContentPattern01;
+import pers.lxg.pattern.ContentPattern01;
 import pers.lxg.portable.Generator;
 
 import java.io.File;

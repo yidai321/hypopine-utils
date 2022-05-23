@@ -1,4 +1,4 @@
-package pers.lxg.patten;
+package pers.lxg.pattern;
 
 /**
  * @author lxg
